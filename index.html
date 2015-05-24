@@ -24,19 +24,23 @@
 <link rel="shortcut icon" href="http://netsyno.com/favicon.ico" />
 
 <script>
+
 $(document).ready(
+
 function(){
+var swidth = $(".smenu").width();
+var sheight = $(".smenu").height();
     $(".smenu").hover(
 	function(){
 		$(this).stop().animate({
-        width: "164px",
-		height: "186px"
+        width: swidth + 10 ,
+		height: sheight + 10
 		});
 	}, 
 	function() {
 		$(this).stop().animate({
-        width: "154px",
-		height: "176px"
+        width: swidth,
+		height: sheight
 		});
 	});
 });
