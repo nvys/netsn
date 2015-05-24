@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Startseite | NETSYNO</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<!--Bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<script src="script.js" type="text/javascript"></script>
+<!--FontAwesome -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<!-- Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Archivo+Narrow:400,700|Open+Sans:700' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="http://netsyno.com/favicon.ico" />
+
+<script>
+$(document).ready(
+function(){
+    $(".smenu").hover(
+	function(){
+		$(this).stop().animate({
+        width: "164px",
+		height: "186px"
+		});
+	}, 
+	function() {
+		$(this).stop().animate({
+        width: "154px",
+		height: "176px"
+		});
+	});
+});
+</script>
+<!-- Stylesheets -->
+<link rel="stylesheet/less" href="/main.less" type="text/css" />
+<!-- Less JS -- stylesheets before this line -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.0/less.min.js"></script>
+
+
+
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <div id = "h01"></div>
+<video autoplay loop poster="codevid2.jpg" id="bgvid">
+<source src="codevid2.webm" type="video/webm">
+<source src="codevid2.mp4" type="video/mp4">
+<source src="codevid2.ogv" type="video/ogg">
+</video>
+<div id='cover'></div>
+<div class="container start">
+<div id ="wrap">
+	<div id="fp-menu">
+	
+		<div class ="smenu"><a  href="#"> projekte </a></div>
+		<div class ="smenu"><a href="#"> inopai </a></div>
+		<div class ="smenu"><a href="#"> leistungen </a></div>
+		<div class ="smenu"><a href="#"> partner </a></div>
+		<div class ="smenu"><a href="#"> über uns </a></div>
+		<div class ="smenu"><a href="#"> kontakt</a></div>
+		<div><a href="#"></a></div>
+	</div>
+    </div>
+  <div class="container front">
+  <h1> Wir beschleunigen Ihre Innovation. </h1>
+
+  </div>
+  </div>
+  
+  
+  </body>
+  </html>
